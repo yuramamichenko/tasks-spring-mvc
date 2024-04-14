@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfdff8;
+}
+
+h1 {
+    color: #336699;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff; /* White background for the table */
+    border: 1px solid #ddd; /* Add a border to the table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the table */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333; /* Dark gray text color */
+    text-align: center;
+}
+
+select, input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    font-weight: bold;
+    color: #336699;
+    text-align: center;
+}
+
+button {
+    background-color: #336699;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #265983;
+}
+
+.pgn-btn-styled {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pgn-btn-styled:hover {
+    background-color: #aaa;
+}
